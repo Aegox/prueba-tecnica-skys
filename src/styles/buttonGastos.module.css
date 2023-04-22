@@ -1,0 +1,10 @@
+.button {
+    background-color: #FDA22F;
+    border: unset;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+    box-shadow: 2px 3px 0px 1px lightgrey;
+    font-size: 14px
+}

@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: inter
+    
+}
+
+body {
+    background-color: #F6F6F6;
+    
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+.fecha {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+    width: 120px
+}
+
+.fecha label {
+    font-size: 15px
+}
+
+.fecha input[type="date"]::-webkit-calendar-picker-indicator {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: transparent;
+    background: 0 0;
+    margin: 0;
+    opacity: 0;
+    pointer-events: auto;
+    z-index: 100
+}
+
+.fecha input[type="date"] {
+    appearance: none;
+    color: black;
+    border: unset;
+    background-color: white;
+    padding: 3px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 1px 1px lightgrey;
+    font-size: 15px
+
+}
+
+.fecha i {
+    position: absolute;
+    bottom: 3px;
+    right: 6px;
+    color: #ff6464
+}
+
+
+

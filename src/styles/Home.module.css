@@ -1,0 +1,13 @@
+.allContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    gap: 15px
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
