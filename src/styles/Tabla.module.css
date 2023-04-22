@@ -2,8 +2,36 @@
     display: flex;
     flex-direction: column;
     background-color: white;
-   width: 100%; 
-    border: solid 1px lightgrey;
+    border: solid 0.5px lightgrey;
     border-radius: 15px;
-    padding-left: 15px
+    gap: 15px;
+    padding-top: 10px;
+    height: 35vh;
+    width: 101.5%
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 22px
+}
+
+.secondContainer {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    background-color: #E2F7FC;
+    padding: 5px
+    
+}
+
+.secondContainer h2 {
+    font-size: 18px
+}
+
+@media screen and (min-width: 1000px) {
+   .container {
+       width: 70%;
+       margin-top: 50px;
+       height: 50vh
+   } 
 }

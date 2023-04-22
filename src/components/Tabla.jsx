@@ -2,15 +2,15 @@ import styles from "../styles/Tabla.module.css";
 
 const Tabla = () => {
     return (
-        <div className={styles.container}>
+        <section className={styles.container}>
             <h1>Ingresos</h1>
-            <div>
+            <div className={styles.secondContainer}>
                 <h2>Nombre</h2>
                 <h2>Peridiocidad</h2>
-                <h2>Tipo de Gasto</h2>
+                <h2>Gasto</h2>
                 <h2>Valor</h2>
             </div>
-        </div>
+        </section>
     )
 }
 

@@ -2,12 +2,27 @@
     display: flex;
     flex-direction: column;
     margin: 15px;
-    gap: 15px
+    gap: 15px;
+    width: 100%
 }
 
 .container {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    gap: 15px;
+    gap: 15px 
+}
+
+@media screen and (min-width: 1000px) {
+    .allContainer {
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px
+    }
+
+    .container {
+        gap: 15px;
+        justify-content: space-around;
+        width: 100%
+    }
 }
