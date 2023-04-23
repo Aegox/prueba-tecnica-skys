@@ -12,7 +12,6 @@ const Home = () => {
                 <ButtonGastos/>
             </section>
             <Resumenes/>
-            <Tabla/>
         </div>
     )
 }

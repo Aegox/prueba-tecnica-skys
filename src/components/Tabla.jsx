@@ -1,14 +1,15 @@
 import styles from "../styles/Tabla.module.css";
 
-const Tabla = () => {
+const Tabla = ({data}) => {
     return (
         <section className={styles.container}>
-            <h1>Ingresos</h1>
+            <h1>{data.name}</h1>
             <div className={styles.secondContainer}>
-                <h2>Nombre</h2>
-                <h2>Peridiocidad</h2>
-                <h2>Gasto</h2>
-                <h2>Valor</h2>
+                {Object.keys(data.result[0]).map(item => {
+                    return (
+                    <h2>{item}</h2>
+                    )
+                })}
             </div>
         </section>
     )
