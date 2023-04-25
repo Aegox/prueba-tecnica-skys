@@ -9,8 +9,11 @@ const InputFecha = ({ id, label, min, max}) => {
   );
 };
 
+/* Estableci limite de fecha desde que se me mando la prueba haste el dia actual,
+para hacer mas funcional el componente de fechas */
+
 const Fechas = () => {
-  const currentDate = new Date().toISOString().slice(0, 10);
+    const currentDate = new Date().toISOString().slice(0, 10);
   const minDate = "2023-04-19";
   
   return (

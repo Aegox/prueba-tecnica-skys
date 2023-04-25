@@ -1,5 +1,5 @@
 import Home from "./components/Home.jsx";
-import Gastos from "./components/Gastos.jsx";
+import GestionDeGastos from "./components/GestionDeGastos.jsx";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
       <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home/>}/>
-            <Route path="/gastos" element={<Gastos/>}/>
+            <Route path="/gastos" element={<GestionDeGastos/>}/>
           </Routes>
       </BrowserRouter>
     

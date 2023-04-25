@@ -12,6 +12,11 @@
     
 }
 
+.container:hover {
+    background-color: #F5F5F5;
+    cursor: pointer
+}
+
 .container h2 {
     font-size: 20px;
 }

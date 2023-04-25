@@ -33,7 +33,8 @@ const Resumenes = () => {
             <div>Cargando...</div>
         )
     }
-
+    /*El handleTabla llama a las colecciones de datos para proporcionarcelos al componente Tabla, solo si se activa
+    el evento onClick le pasa a la funcion el name que referencia a la coleccion y en algun componente resumen para traer su informacion correspondiente para llenar las tablas*/
     return (
         <div>
             <div className={styles.container}>

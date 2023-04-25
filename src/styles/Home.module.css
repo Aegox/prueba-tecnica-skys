@@ -3,13 +3,18 @@
     flex-direction: column;
     margin: 15px;
     gap: 15px;
-    width: 100%
 }
 
 .container {
     display: flex;
     flex-direction: row;
-    gap: 15px 
+    gap: 15px;
+    width: 100%;
+    justify-content: space-around
+}
+
+button:hover {
+    cursor: pointer
 }
 
 @media screen and (min-width: 1000px) {

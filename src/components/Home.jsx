@@ -7,10 +7,10 @@ import Tabla from "./Tabla.jsx";
 const Home = () => {
     return (
         <div className={styles.allContainer}>
-            <section className={styles.container}>
+            <div className={styles.container}>
                 <Fechas/>
                 <ButtonGastos/>
-            </section>
+            </div>
             <Resumenes/>
         </div>
     )
