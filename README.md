@@ -48,6 +48,9 @@ Condiciones del manejo de la tabla y campos:</p>
     anteriores, como en el siguiente ejemplo.
     
     *Botón “Guardar”: Guarda la información en una colección de Firebase
+    
+    
+<a href="https://prueba-tecnica-skys-gy7umb1sd-aegox.vercel.app/">Link al Deploy</a>
 
 <h4>Requerimientos</h4>
     <p>
